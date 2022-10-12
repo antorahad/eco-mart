@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Eco_mart
+build_property.RootNamespace = Eco_mart
+build_property.ProjectDir = C:\Users\sales\source\repos\Eco-mart\Eco-mart\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\sales\source\repos\Eco-mart\Eco-mart
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Login/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Login/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/My cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXkgY2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/My-profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXktcHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Order-history.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXItaGlzdG9yeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Product detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdCBkZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Servicepage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/Terms and Conditions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybXMgYW5kIENvbmRpdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-6eamylk0qf
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wb9zu2sz1a
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-uuf9srn0uh
+
+[C:/Users/sales/source/repos/Eco-mart/Eco-mart/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

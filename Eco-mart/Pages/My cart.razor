@@ -1,0 +1,185 @@
+﻿@page "/My_cart"
+
+<section class="my-cart">
+        <div class="container">
+            <h1 class="category-title text-center text-dark mb-5">My Cart <i class="bi bi-cart-fill"></i></h1>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="cart-container mb-3">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="table-header">
+                                    <tr>
+                                        <th class="head-details">Product</th>
+                                        <th class="head-details">Name</th>
+                                        <th class="head-details">Price</th>
+                                        <th class="head-details">Quantity</th>
+                                        <th class="head-details">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="p-3">
+                                    <tr>
+                                        <td>
+                                            <div class="cart-item">
+                                                <img src="/Images/f3.png">
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="item-name">
+                                                Black Berry
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="item-price">
+                                                ৳ 680
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <input name="quantity" class="counter" type="number" value="1" min="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex">
+                                                <div class=" item-price">
+                                                    ৳ 680
+                                                </div>
+
+                                                <div class="cart-cancel">
+                                                    <a href="#">
+                                                        <i class="bi bi-trash3"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            <div class="cart-item">
+                                                <img src="/Images/f1.png">
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="item-name">
+                                                Vegetables
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="item-price">
+                                                ৳ 680
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <input name="quantity" class="counter" type="number" value="1" min="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex">
+                                                <div class=" item-price">
+                                                    ৳ 680
+                                                </div>
+
+                                                <div class="cart-cancel">
+                                                    <a href="#">
+                                                        <i class="bi bi-trash3"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            <div class="cart-item">
+                                                <img src="/Images/vacuum_cleaner_PNG51-removebg-preview.png">
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="item-name">
+                                                Vacuum Cleaner
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="item-price">
+                                                ৳ 680
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <input name="quantity" class="counter" type="number" value="1" min="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex">
+                                                <div class=" item-price">
+                                                    ৳ 680
+                                                </div>
+
+                                                <div class="cart-cancel">
+                                                    <a href="#">
+                                                        <i class="bi bi-trash3"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="card">
+                        <div class="card-header text-center p-3">
+                            Order summary
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <P class="st-title">Sub total:</P>
+                                <p class="st-value ms-auto">৳150</p>
+                            </div>
+                            <div class="d-flex">
+                                <P class="st-title">Tax:</P>
+                                <p class="st-value ms-auto">৳150</p>
+                            </div>
+                            <div class="d-flex">
+                                <P class="st-title">Shipping:</P>
+                                <p class="st-value ms-auto">৳60</p>
+                            </div>
+                            <div class="cuppon">
+                                <a href="#">Add coupon code <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <hr>
+                            <div class="d-flex">
+                                <P class="st-title">Total:</P>
+                                <p class="st-value ms-auto">৳60</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <button class="btn cart-btn1">
+                            <a href="/Other Html/product.html">Continue</a>
+                        </button>
+                        <button class="btn cart-btn2 ms-auto">
+                            <a href="#">Checkout</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+@code {
+
+}

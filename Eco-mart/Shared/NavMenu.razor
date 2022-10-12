@@ -1,0 +1,441 @@
+﻿<!-- Navbar section -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="btn side-btn me-2 mt-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                        class="bi bi-list"></i></button>
+                <a class="navbar-brand" href="/">
+                    <img src="Images/logo.png" alt="logo" class="img-fluid" style="width: 110px; height: 50px;">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-content">
+                    <i class="fas fa-stream text-dark"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside">Categories</a>
+                            <div class="dropdown-menu shadow">
+                                <div class="mega-content px-md-4">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                                                <h5>Food</h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item" href="/Product">Fruits &
+                                                        Vegetables</a>
+                                                    <a class="list-group-item" href="/Product">Meat &
+                                                        Fish</a>
+                                                    <a class="list-group-item" href="/Product">Baking &
+                                                        Diary</a>
+                                                    <a class="list-group-item" href="/Product">Candy &
+                                                        Dryfood</a>
+                                                    <a class="list-group-item"
+                                                        href="/Product">Spices</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                                                <h5>Cosmetic</h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item" href="/Product">Facial
+                                                        Care</a>
+                                                    <a class="list-group-item"
+                                                        href="/Product">Moisturizer</a>
+                                                    <a class="list-group-item" href="/Product">Shampoo &
+                                                        Deo</a>
+                                                    <a class="list-group-item" href="/Product">Soap &
+                                                        Handwash</a>
+                                                    <a class="list-group-item" href="/Product">Hair
+                                                        Color</a>
+                                                    <a class="list-group-item" href="/Product">Tissues &
+                                                        Wipes</a>
+                                                    <a class="list-group-item" href="/Product">Telcom
+                                                        Powder</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                                                <h5>Accessories</h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item" href="/Product">House
+                                                        Accessories</a>
+                                                    <a class="list-group-item" href="/Product">Kitchen
+                                                        Accessories</a>
+                                                    <a class="list-group-item" href="/Product">Toos &
+                                                        Hardware</a>
+                                                    <a class="list-group-item" href="/Product">Cleaning
+                                                        Supplies</a>
+                                                    <a class="list-group-item"
+                                                        href="/Product">Stationery</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                                                <h5>Others</h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item" href="/">Sales Offer</a>
+                                                    <a class="list-group-item" href="/">Lucky Coupon</a>
+                                                    <a class="list-group-item" href="/">Festival Surprise</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/About">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Login"><i class="bi bi-people"></i> </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/My_cart"><i class="bi bi-cart"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown mt-2 user-profile">
+                                <img src="/Images/user4.png">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </a>
+
+                            <ul class="dropdown-menu border-0 shadow-sm text-center mx-auto mt-2">
+                            <li><a class="dropdown-item" href="/My_profile">Visit Profile</a></li>
+                            <li><a class="dropdown-item" href="/Order_history">Order History</a></li>
+                            <li><a class="dropdown-item" href="/Login">Log Out</a></li>
+                            </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+ <!-- sidenavbar section -->
+    <section class="side-nav">
+        <div class="offcanvas offcanvas-start bg-white shadow" data-bs-scroll="true" tabindex="-1"
+            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <a class="navbar-brand" href="/">
+                    <img src="Images/logo.png" alt="logo" class="img-fluid" style="width: 110px; height: 50px;">
+                </a>
+                <button type="button" class="btn-close text-reset side-close" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="text-center mx-auto">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn l-btn">
+                             <a href="/"> Products</a>
+                           </button>
+                        <button type="button" class="btn r-btn">
+                            <a href="/Servicepage"> Services</a>
+                            </button>
+                    </div>
+                </div>
+                <ul class="sidenav list-unstyled py-2 mx-auto">
+                    <li class="mt-2">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <img src="Images/diet.png" style="width: 20px; height: 20px;">
+                                        <div class="sidemenu-name ms-3">
+                                            Food
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled sidemenu-name">
+                                            <li>
+                                                <img src="Images/fruit.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Fruits</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/vegetable.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Vegetables</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/fish.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Fish</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/meat.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Meat</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/bake.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Beaking</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/dairy-products.png"
+                                                    style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Dairy</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/sweets.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Candy</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/dried-fruits.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Dryfood</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/spices.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Spices</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="mt-2">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        <img src="Images/cosmetics.png" style="width: 20px; height: 20px;">
+                                        <div class="sidemenu-name ms-3">
+                                            Cosmetics
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled sidemenu-name">
+                                            <li>
+                                                <img src="Images/cream.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Facial Care</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/lotion.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Moisturizor</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/shampoo.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Shampoo</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/deodorant.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Deo</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/soap.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Soap</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/handwash.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Handwash</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/hairstyle.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Hair Color</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/tissue-box.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Tissues</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/wipes.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Wipes</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/powder.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Telcom Powder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="mt-2">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="true"
+                                        aria-controls="collapseThree">
+                                        <img src="Images/tool-box.png" style="width: 20px; height: 20px;">
+                                        <div class="sidemenu-name ms-3">
+                                            Accessories
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled sidemenu-name">
+                                            <li>
+                                                <img src="Images/vaccum-cleaner.png"
+                                                    style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">House Items</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/cooking-tools.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Kitchen Items</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/settings.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Tools & Hardware</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/product.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Cleaning Supplies</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/stationary.png" style="width: 20px; height: 20px;">
+                                                <a href="/Product" class="ms-3">Stationery</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="mt-2">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        <img src="Images/user.png" style="width: 20px; height: 20px;">
+                                        <div class="sidemenu-name ms-3">
+                                            Account
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled sidemenu-name">
+                                            <li>
+                                                <img src="Images/man.png" style="width: 20px; height: 20px;">
+                                                <a href="/My_profile" class="ms-3">My Account</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li>
+                                                <img src="Images/profile settings.png"
+                                                    style="width: 20px; height: 20px;">
+                                                <a href="#" class="ms-3">Settings</a>
+                                            </li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="sidenav-item mt-2 mx-auto">
+                        <div class="card">
+                            <div class="card-body"><img src="Images/discount.png" style="width: 20px; height: 20px;">
+                                <a href="/index.html" class="sidemenu-name ms-3">Offers</a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="sidenav-item mt-2 mx-auto">
+                        <div class="card">
+                            <div class="card-body"><img src="Images/trolley.png" style="width: 20px; height: 20px;">
+                                <a href="/index.html" class="sidemenu-name ms-3">Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+ <!-- sidenavbar section exit-->

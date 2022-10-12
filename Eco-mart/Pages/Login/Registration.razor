@@ -1,0 +1,68 @@
+﻿@page "/Registration"
+@layout LoginLayout
+<section class="registration-form">
+        <div class="container">
+
+            <h1 class="text-dark category-title mb-4 text-center">Registration Form</h1>
+
+            <form class="rounded bg-white shadow p-5 reg-form">
+                <div class="text-center logo-img"><img src="/Images/logo.png" class="img-fluid"></div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control first-form" id="floatingInput" placeholder="First name">
+                    <label for="floatingInput">First name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control last-form" id="floatingInput" placeholder="Last name">
+                    <label for="floatingInput">Last name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control email-form" id="floatingInput"
+                        placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="input" class="form-control input-form" id="floatingInput" placeholder="input">
+                    <label for="floatingInput">Mobile Number</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control log-pass" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Enter password</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control log-pass" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Confirm password</label>
+                </div>
+
+                <div class="form-check d-flex align-items-center">
+                    <input class="form-check-input chck-box" type="checkbox" id="gridCheck" checked>
+                    <label class="form-check-label ms-2" for="gridCheck">
+                        I agree to all statements in <a href="/Terms_and_Conditions">Terms & Conditons</a>
+                    </label>
+                </div>
+                <div class="text-center mx-auto">
+                    <button type="submit" class="btn log-btn mt-4">
+                        <a href="#" class="text-white" style="text-decoration: none;">
+                            Sign Up
+                        </a>
+                    </button>
+
+                    <button type="submit" class="btn log-btn mt-4">
+                        <a href="/Login" class="text-white" style="text-decoration: none;">
+                            Sign In
+                        </a>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+@code {
+
+}

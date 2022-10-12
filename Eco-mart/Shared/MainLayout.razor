@@ -1,0 +1,64 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Eco-mart</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+    @*    <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>*@
+
+        <article class="content px-4">
+            @Body
+        </article>
+        <!--Footer section-->
+    <section id="contact" class="footer_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 footer_logo mb-4 mb-lg-0">
+                    <div class="footer-logo">
+                         <img src="/Images/logo.png" height="40" alt="">
+                    </div>
+                    <p class="footer_text">Eco-Cart App is now available on Google Play & App Store. Get it now.</p>
+
+                    <div class="app-icon">
+                        <a href="#"><img src="/Images/playstore.png" alt=""></a>
+                        <a href="#"><img src="/Images/app-store.png" alt=""></a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 px-lg-5 mb-4 mb-lg-0">
+                    <h3 class="footer_title">Contact</h3>
+                    <p class="footer_text">
+                        <i class="bi bi-telephone"></i> <a href="#">Call Us : 0135652944</a><br><br>
+                        <i class="bi bi-envelope-open"></i> <a href="#">Mail Us : support@eco-cart.com</a><br><br>
+                        <i class="bi bi-shop-window"></i> <a href="#">We're Open : 10am to 10pm</a><br><br>
+                        <i class="bi bi-geo-alt"></i> <a href="#" class="footer-address">12 / 241 Dhaka,
+                            1216, Bangladesh</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <h3 class="footer_title">Social Media</h3>
+                    <div class="s-icons">
+                           <p class="icon">
+                        <a href="#" class="footer_social_media_icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="footer_social_media_icon"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="footer_social_media_icon"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="footer_social_media_icon"><i class="bi bi-twitter"></i></a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col-12 footer_credits text-center">
+                    <span>© 2022 Eco-Cart. All Rights
+                        Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer section Exit-->
+    </main>
+</div>
